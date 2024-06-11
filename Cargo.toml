@@ -1,0 +1,11 @@
+[package]
+name = "gear-package"
+version = "0.1.0"
+edition = "2021"
+
+crate-type = "cdylib"
+
+[dependencies]
+gstd = { git = "https://github.com/gear-tech/gear" }
+gprimitives = { git = "https://github.com/gear-tech/gear", default-features = false }
+const-random = "0.1"
